@@ -21,14 +21,11 @@ A simple Java application that transfers a file from a **Client** to a **Server*
 Ensure your terminal is inside `FileTransferProject/`, where the `src` folder is located.
 
 ### ✅ Step 2: Compile
-    ```bash
     javac -d out src/client/ClientApp.java src/server/ServerApp.java
 
 ### ✅ Step 3: Run The Server
-     ```bash
     java -cp out server.ServerApp
 
 ### ✅ Step 4: Run The Client
-     ```bash
     java -cp out client.ClientApp
 
