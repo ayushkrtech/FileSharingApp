@@ -1,4 +1,4 @@
-# 📁 Enhanced File Transfer Application
+# 📁 File Sharing App
 
 A robust Java application for secure file transfer between clients and servers over TCP. This enhanced version includes integrity verification, progress tracking, concurrent client support, and comprehensive error handling.
 
@@ -32,17 +32,17 @@ A robust Java application for secure file transfer between clients and servers o
 
 ## 🛠️ Technical Improvements
 
-| Feature | Original | Enhanced |
-|---------|----------|----------|
-| Port | 900 | 9000 (standard non-privileged port) |
-| Buffer Size | 4KB | 8KB (optimized) |
-| Error Handling | Basic | Comprehensive with specific error types |
-| File Validation | None | Size, readability, existence checks |
-| Progress Tracking | None | Real-time progress bar |
-| Concurrent Clients | 1 | Up to 10 with thread pool |
-| Data Integrity | None | SHA-256 checksum verification |
-| File Naming | Simple prefix | Timestamp-based unique naming |
-| Timeouts | None | 30s client, 60s server |
+| Feature | Enhanced |
+|---------|----------|
+| Port | 9000 (standard non-privileged port) |
+| Buffer Size | 8KB (optimized) |
+| Error Handling | Comprehensive with specific error types |
+| File Validation | Size, readability, existence checks |
+| Progress Tracking | Real-time progress bar |
+| Concurrent Clients | Up to 10 with thread pool |
+| Data Integrity | SHA-256 checksum verification |
+| File Naming | Timestamp-based unique naming |
+| Timeouts | 30s client, 60s server |
 
 ## 💻 Prerequisites
 
